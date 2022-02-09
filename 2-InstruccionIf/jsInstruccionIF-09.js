@@ -1,6 +1,13 @@
+/* 
+Gimena Rivoira
+ejercicio 9 - jsIntroduccionIF
+Al presionar el Boton, mostrar un numero Random del 1 al 10 inclusive 
+*/
 function mostrar()
 {
-	//Genero el número RANDOM entre 1 y 10 
-	alert("ok");	
-
-}//FIN DE LA FUNCIÓN
+	let randomNumber;
+	randomNumber = Math.floor(Math.random() * 11) + 1
+	console.log(randomNumber);
+	alert(randomNumber);	
+}
+mostrar()
